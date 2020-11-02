@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script>
+      var myArray = ['hello'];
+
+      function foo() {
+        myArray.forEach(function(item) {
+          foo();
+        })
+      }
+
+      foo();
+    </script>
+  </head>
+  <body>
+    Max call stack test
+  </body>
+</html>
